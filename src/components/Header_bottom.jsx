@@ -5,9 +5,9 @@ import './Header_bottom.css'
 function TextHeader(props){
     return (
         <li>
-            <p>
+            <a href="">
                 {props.description}
-            </p>
+            </a>
         </li>
     )
 }
@@ -31,7 +31,7 @@ export default function Header() {
                 <TextHeader 
                 description={textHeader[4].description}/>
             </ul>
-            <div>
+            <div className='btn-auth'>
                 <a className='auth' href="">Войти</a>
             </div>
         </div>
