@@ -1,24 +1,24 @@
-import logo from '/logo.png'
+import logo from '../../public/img/logo.svg'
 import { textHeader } from '../data'
 import './Header_bottom.css'
 
-function TextHeader(props){
+function TextHeader( { description } ){
     return (
         <li>
             <a href="">
-                {props.description}
+                {description}
             </a>
         </li>
     )
 }
 
-export default function Header() {
+export default function Header_bottom() {
     return (
       <header>
         <div>
-            <img src={logo} alt="logo" />
+            <a href="#"><img src={logo} alt="logo"/></a>
         </div>
-        <div className='header_description'>
+          <div className='header_description'>
             <ul>
                 <TextHeader 
                 description={textHeader[0].description}/>

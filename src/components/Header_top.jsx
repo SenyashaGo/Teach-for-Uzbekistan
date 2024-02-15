@@ -1,7 +1,7 @@
 import ButtonLanguage from "./buttons/Button_languages"
 import '../index.css'
 
-export default function Header() {
+export default function Header_top() {
     return (
       <div className="container_header headerTopBack">
         <div>
