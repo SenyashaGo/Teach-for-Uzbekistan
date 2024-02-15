@@ -10,18 +10,34 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+.container {
+  padding-left: 12vw;
+  padding-right: 12vw;
+}
 
 /* HEADER */
 header {
   height: 50px;
   display: flex;
-  padding: 0 2rem;
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid #ccc;
   background: #fafafa;
+  padding-left: 12vw;
+  padding-right: 12vw;
 }
 
+.headerTopBack {
+  background-color: #139161
+}
+.container_header {
+  padding-left: 12vw;
+  padding-right: 12vw;
+  padding-top: 0.5rem;
+  height: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
 
 /* MAIN */
 main {
